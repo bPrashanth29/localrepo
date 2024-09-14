@@ -20,7 +20,12 @@ Git commands
 10. git checkout <branchname> : to navigate or go from one branch to another branch
 11. git checkout -b <new branchname> : to create new branch and switch to it.
 12. git branch -d <branchname> : to delete the branch(you cannot delete if you are in the same branch)
-
+13. git reset <filename> : to reset the changes which are added
+        if you have added changes in many files then you can also use 
+        "git reset"
+        to undo the changes
+14. git reset HEAD~1 : to reset the last commit    
+15. git log : to get the history of all commits
 
 
 There are two types of work flow 

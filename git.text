@@ -1,0 +1,35 @@
+Git commands
+1. git --version : to know the version
+2. git config --global/local user.name/email "name/email" : used to register your name and email
+3. git clone <link> : used to clone the repository
+4. git status : to know the status of files 
+5. git add : to add the files to make them ready for commit. 2 types
+        1. git add <filename> : add a single file
+        2. git add . : add all changed files
+6. git commit -m "message" : used to commit the changes (or) record the activity
+7. git push origin main : used to push the changes from local system to github
+        you can use "git push -u origin main" so that time you only need to type "git push" 
+8. git branch : to know in which branch you are
+9. git init : initialise the file/folder to git
+
+There are two types of work flow 
+1. github to git
+2. git to github
+
+GITHUB TO GIT
+  1.create a repository in github
+  2.clone the repository to your system (git clone <repository link>)
+  3.making changes in files (git status)
+  4.add those changes (git add .)
+  5.commit (git commit -m "message")
+  6.push (git push -u origin main)
+
+GIT TO GITHUB
+  1.create folder (mkdir foldername)
+  2.initialise folder to git (git init)
+  3.make changes (git status)
+  4.add changes (git add .)
+  5.commit (git commit -m "message")
+  6.create repository in github 
+  7.clone that repository (git clone <repository link>)
+  8.push changes (git push -u origin main)

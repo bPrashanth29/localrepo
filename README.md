@@ -1,1 +1,1 @@
-using for git and github
+# Using for git and github

@@ -8,9 +8,20 @@ Git commands
         2. git add . : add all changed files
 6. git commit -m "message" : used to commit the changes (or) record the activity
 7. git push origin main : used to push the changes from local system to github
-        you can use "git push -u origin main" so that time you only need to type "git push" 
-8. git branch : to know in which branch you are
-9. git init : initialise the file/folder to git
+        you can use 
+        "git push -u origin main" 
+        so that next time you only need to type 
+        "git push" 
+8. git init : initialise the file/folder to git
+9. git branch : to know in which branch you are
+        to change branch we use
+        "git branch -M <branchname> "
+        branch name is main by default
+10. git checkout <branchname> : to navigate or go from one branch to another branch
+11. git checkout -b <new branchname> : to create new branch and switch to it.
+12. git branch -d <branchname> : to delete the branch(you cannot delete if you are in the same branch)
+
+
 
 There are two types of work flow 
 1. github to git
